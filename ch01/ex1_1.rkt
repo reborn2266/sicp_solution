@@ -1,7 +1,7 @@
 #lang racket
-# this is the very first script to run, first line is for racket only
-# it means use racket's default std module
-# you can run this by "racket ex1_1.rkt"
+;; this is the very first script to run, first line is for racket only
+;; it means use racket's default std module
+;; you can run this by "racket ex1_1.rkt"
 10
 (+ 5 3 4)
 (- 9 1)

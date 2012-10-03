@@ -9,6 +9,6 @@
        c
        (f-iter (+ a b c) a b (- count 1))))
 
-# not only the memory, but the speed enhanced a lot by running iterative one
-(f 35)
+;; not only the memory, but the speed enhanced a lot by running iterative one
 (f-iter 2 1 0 35)
+(f 35)

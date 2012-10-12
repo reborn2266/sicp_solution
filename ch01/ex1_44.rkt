@@ -12,7 +12,7 @@
 )
 
 (define (smooth f dx)
-   (lambda (x) 
+   (lambda (x)
        (/ (+ (f (- x dx)) (f x) (f (+ x dx))) 3.0
        )
    )

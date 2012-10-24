@@ -26,7 +26,7 @@
  (accumulate append '() (map proc seq)))
 
 (define (add-eq-S n S)
- (filter (lambda (triple) (= (+ (car triple) (cadr triple) (cadr (cdr triple))) S)) 
+ (filter (lambda (triple) (= (+ (car triple) (cadr triple) (cadr (cdr triple))) S))
  (flatmap
  (lambda (i)
   (flatmap (lambda (j) (map (lambda (k) (list i j k)) (enumerate-interval 1 (- j 1))))
